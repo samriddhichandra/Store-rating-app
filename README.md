@@ -8,17 +8,39 @@ The system supports three distinct roles with role‑based access control.
 
 ## Table of Contents
 
-1. [Tech Stack](#tech-stack)
-2. [Architecture Overview](#architecture-overview)
-3. [Database Schema](#database-schema)
-4. [Backend API](#backend-api)
-5. [Frontend Application](#frontend-application)
-6. [Authentication & Authorization](#authentication--authorization)
-7. [Setup & Installation](#setup--installation)
-8. [Seed Data & Demo Accounts](#seed-data--demo-accounts)
-9. [Environment Variables](#environment-variables)
-10. [Running the Application](#running-the-application)
-11. [Project Structure](#project-structure)
+1. [Screenshots](#screenshots)
+2. [Tech Stack](#tech-stack)
+3. [Architecture Overview](#architecture-overview)
+4. [Database Schema](#database-schema)
+5. [Backend API](#backend-api)
+6. [Frontend Application](#frontend-application)
+7. [Authentication & Authorization](#authentication--authorization)
+8. [Setup & Installation](#setup--installation)
+9. [Seed Data & Demo Accounts](#seed-data--demo-accounts)
+10. [Environment Variables](#environment-variables)
+11. [Running the Application](#running-the-application)
+12. [Project Structure](#project-structure)
+
+---
+
+## Screenshots
+
+Here are some screenshots showcasing the Store Rating Platform:
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 20px 0;">
+  <div>
+    <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Screenshot 1" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+  <div>
+    <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Screenshot 2" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+  <div>
+    <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Screenshot 3" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+  <div>
+    <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Screenshot 4" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+</div>
 
 ---
 
