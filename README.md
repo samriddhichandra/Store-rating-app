@@ -27,29 +27,21 @@ The system supports three distinct roles with role‑based access control.
 
 Here are some screenshots showcasing the Store Rating Platform:
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0;">
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Screenshot 1" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Screenshot 2" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Screenshot 3" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Screenshot 4" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-19 030614.png" alt="Screenshot 5" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-19 031801.png" alt="Screenshot 6" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-  <div>
-    <img src="frontend/public/Screenshot 2026-06-19 031901.png" alt="Screenshot 7" style="width: 100%; max-width: 250px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-</div>
+<p align="center">
+  <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Landing Page" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Login Page" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Signup Page" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Store List" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-19 030614.png" alt="Admin Dashboard" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-19 031801.png" alt="Admin Users" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-19 031901.png" alt="Owner Dashboard" style="width: 100%; max-width: 500px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+</p>
+
+<p align="center">
+  <small style="color: #666; font-size: 0.85em; line-height: 1.8;">
+    <strong>Landing Page</strong> | <strong>Login Page</strong> | <strong>Signup Page</strong> | <strong>Store List & Ratings</strong> | <strong>Admin Dashboard</strong> | <strong>Admin - User Management</strong> | <strong>Store Owner Dashboard</strong>
+  </small>
+</p>
 
 ---
 
