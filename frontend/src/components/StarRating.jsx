@@ -28,8 +28,8 @@ export default function StarRating({ value = 0, onChange, readOnly = false, size
             <svg
               viewBox="0 0 24 24"
               className={dims}
-              fill={filled ? '#F59E0B' : 'rgba(15, 23, 42, 0.35)'}
-              stroke={filled ? '#FDE68A' : 'rgba(148, 163, 184, 0.58)'}
+              fill={filled ? '#F59E0B' : 'var(--star-empty-fill)'}
+              stroke={filled ? '#FDE68A' : 'var(--star-empty-stroke)'}
               strokeWidth="1.5"
             >
               <path

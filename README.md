@@ -27,18 +27,21 @@ The system supports three distinct roles with role‑based access control.
 
 Here are some screenshots showcasing the Store Rating Platform:
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 20px 0;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0;">
   <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Screenshot 1" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+    <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Screenshot 1" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
   <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Screenshot 2" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+    <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Screenshot 2" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
   <div>
-    <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Screenshot 3" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+    <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Screenshot 3" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
   <div>
-    <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Screenshot 4" style="width: 100%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+    <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Screenshot 4" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+  <div>
+    <img src="frontend/public/Screenshot 2026-06-19 030614.png" alt="Screenshot 5" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
 </div>
 

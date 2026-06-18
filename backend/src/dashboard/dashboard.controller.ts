@@ -15,4 +15,10 @@ export class DashboardController {
   getAdminStats() {
     return this.dashboardService.getAdminStats();
   }
+
+  @Get('user-ratings')
+  @Roles(Role.ADMIN)
+  getUserRatingsWithAverages() {
+    return this.dashboardService.getUserRatingsWithAverages();
+  }
 }

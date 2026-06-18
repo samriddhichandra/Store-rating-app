@@ -16,7 +16,7 @@ export default function OwnerDashboard() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <p className="px-6 py-10 text-slate-400">Loading dashboard...</p>;
+  if (loading) return <p className="px-6 py-10" style={{ color: 'var(--color-text-muted)' }}>Loading dashboard...</p>;
 
   const storeNames = (data?.stores || []).map((s) => s.name).join(', ') || 'No store assigned yet';
 
@@ -67,11 +67,11 @@ export default function OwnerDashboard() {
     <div className="page-shell max-w-5xl">
       <p className="eyebrow">Owner insights</p>
       <h1 className="font-display text-3xl font-bold text-ink mt-2 mb-1">Store dashboard</h1>
-      <p className="text-slate-400 text-sm mb-8">{storeNames}</p>
+      <p className="text-sm mb-8" style={{ color: 'var(--color-text-muted)' }}>{storeNames}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8 stagger-children">
         <div className="card p-6 surface-hover card-glow">
-          <p className="text-sm font-medium text-slate-400">Average rating</p>
+          <p className="text-sm font-medium" style={{ color: 'var(--color-text-muted)' }}>Average rating</p>
           <div className="flex items-center gap-3 mt-2">
             <span className="font-display text-4xl font-bold text-accent-dark">
               {data?.averageRating ?? 'No ratings'}
@@ -80,7 +80,7 @@ export default function OwnerDashboard() {
           </div>
         </div>
         <div className="card p-6 surface-hover card-glow">
-          <p className="text-sm font-medium text-slate-400">Total ratings received</p>
+          <p className="text-sm font-medium" style={{ color: 'var(--color-text-muted)' }}>Total ratings received</p>
           <p className="font-display text-4xl font-bold text-primary-light mt-2">{data?.raters?.length ?? 0}</p>
         </div>
       </div>

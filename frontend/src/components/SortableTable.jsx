@@ -14,21 +14,22 @@ export default function SortableTable({ columns, data, sortBy, order, onSort, em
 
   return (
     <div className="card overflow-x-auto animate-scale-in">
-      <table className="w-full text-sm text-slate-200">
+      <table className="w-full text-sm" style={{ color: 'var(--color-ink)' }}>
         <thead>
-          <tr className="border-b border-white/10 bg-white/[0.03]">
+          <tr className="border-b" style={{ borderColor: 'var(--color-border)' }}>
             {columns.map((col) => (
               <th
                 key={col.key}
                 onClick={() => handleSort(col)}
-                className={`text-left px-4 py-3 font-display font-semibold text-slate-300 whitespace-nowrap transition-all duration-200 ${
-                  col.sortable === false ? '' : 'cursor-pointer select-none hover:text-primary-light hover:bg-white/[0.03]'
+                className={`text-left px-4 py-3 font-display font-semibold whitespace-nowrap transition-all duration-200 ${
+                  col.sortable === false ? '' : 'cursor-pointer select-none'
                 }`}
+                style={{ color: 'var(--color-text-muted)' }}
               >
                 <span className="inline-flex items-center gap-1">
                   {col.label}
                   {col.sortable !== false && sortBy === col.key && (
-                    <span className="text-accent animate-fade-in">{order === 'ASC' ? '▲' : '▼'}</span>
+                    <span className="animate-fade-in" style={{ color: 'var(--color-accent)' }}>{order === 'ASC' ? '▲' : '▼'}</span>
                   )}
                 </span>
               </th>
@@ -38,17 +39,22 @@ export default function SortableTable({ columns, data, sortBy, order, onSort, em
         <tbody>
           {data.length === 0 ? (
             <tr>
-              <td colSpan={columns.length} className="px-4 py-10 text-center text-slate-400">
+              <td colSpan={columns.length} className="px-4 py-10 text-center" style={{ color: 'var(--color-text-muted)' }}>
                 {emptyText}
               </td>
             </tr>
           ) : (
             data.map((row, i) => (
-              <tr key={row.id ?? i}
-                  className="border-b border-white/10 last:border-0 hover:bg-white/[0.04] transition-all duration-150"
-                  style={{ animationDelay: `${i * 0.03}s` }}>
+              <tr
+                key={row.id ?? i}
+                className="border-b last:border-0 transition-all duration-150"
+                style={{
+                  borderColor: 'var(--color-border)',
+                  animationDelay: `${i * 0.03}s`,
+                }}
+              >
                 {columns.map((col) => (
-                  <td key={col.key} className="px-4 py-3 align-middle">
+                  <td key={col.key} className="px-4 py-3 align-middle" style={{ color: 'var(--color-ink)' }}>
                     {col.render ? col.render(row) : row[col.key]}
                   </td>
                 ))}
