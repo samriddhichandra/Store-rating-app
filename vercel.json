@@ -8,8 +8,8 @@
         "backend": {
             "root": "backend",
             "routePrefix": "/_/backend",
-            "framework": "nestjs",
-            "entrypoint": "dist/main.js"
+            "builder": "@vercel/node",
+            "entrypoint": "src/main.ts"
         }
     }
 }
