@@ -29,3 +29,13 @@ coverage/
 # Misc
 *.swp
 *.swo
+
+# Backend specific
+backend/dist/
+backend/node_modules/
+backend/.env
+
+# Frontend specific
+frontend/dist/
+frontend/node_modules/
+frontend/.env
