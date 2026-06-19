@@ -1,10 +1,14 @@
 import { NestFactory } from '@nestjs/core';
-import { NestExpressApplication } from '@nestjs/platform-express';
+import { ExpressAdapter } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
-import { Request, Response } from 'express';
+import * as express from 'express';
 
-const createNestServer = async (): Promise<NestExpressApplication> => {
-  const app = await NestFactory.create<NestExpressApplication>(AppModule);
+const server = express();
+const createNestServer = async () => {
+  const app = await NestFactory.create(
+    AppModule,
+    new ExpressAdapter(server),
+  );
 
   app.enableCors({
     origin: true,
@@ -24,7 +28,7 @@ const createNestServer = async (): Promise<NestExpressApplication> => {
   return app;
 };
 
-export default async (req: Request, res: Response) => {
+export default async (req: express.Request, res: express.Response) => {
   const app = await createNestServer();
-  return app.getHttpAdapter().getInstance()(req, res);
+  return server(req, res);
 };
