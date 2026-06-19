@@ -43,6 +43,12 @@ Here are some screenshots showcasing the Store Rating Platform:
   </small>
 </p>
 
+## Demo
+
+<p align="center">
+  <video src="frontend/public/19.06.2026_15.23.30_REC.mp4" controls width="600"></video>
+</p>
+
 ---
 
 ## Tech Stack
