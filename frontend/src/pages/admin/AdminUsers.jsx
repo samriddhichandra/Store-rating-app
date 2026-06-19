@@ -27,6 +27,13 @@ export default function AdminUsers() {
   };
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      fetchUsers();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [filters]);
+
+  useEffect(() => {
     fetchUsers();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sortBy, order]);

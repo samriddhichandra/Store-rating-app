@@ -21,6 +21,13 @@ export default function AdminStores() {
   };
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      fetchStores();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [filters]);
+
+  useEffect(() => {
     fetchStores();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sortBy, order]);

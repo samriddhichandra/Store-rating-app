@@ -7,6 +7,7 @@ export default function StoreList() {
   const [stores, setStores] = useState([]);
   const [loading, setLoading] = useState(true);
   const [savingId, setSavingId] = useState(null);
+  const [rateError, setRateError] = useState('');
 
   const fetchStores = async () => {
     setLoading(true);
@@ -19,11 +20,15 @@ export default function StoreList() {
   };
 
   useEffect(() => {
-    fetchStores();
-  }, []);
+    const timer = setTimeout(() => {
+      fetchStores();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [filters]);
 
   const handleRate = async (storeId, rating) => {
     setSavingId(storeId);
+    setRateError('');
     try {
       await api.post('/ratings', { storeId, rating });
       setStores((prev) =>
@@ -31,6 +36,8 @@ export default function StoreList() {
       );
       // Refresh to pick up the new overall average for this store
       fetchStores();
+    } catch (err) {
+      setRateError(err.response?.data?.message || 'Failed to save rating. Please try again.');
     } finally {
       setSavingId(null);
     }
@@ -66,6 +73,11 @@ export default function StoreList() {
         </button>
       </form>
 
+      {rateError && (
+        <div className="bg-danger/10 text-danger text-sm rounded-md px-3 py-2 border border-danger/20 mb-4 animate-fade-in">
+          {rateError}
+        </div>
+      )}
       {loading ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {[1, 2, 3, 4].map((i) => (
