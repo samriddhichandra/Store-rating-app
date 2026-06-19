@@ -45,10 +45,12 @@ Here are some screenshots showcasing the Store Rating Platform:
 
 ## Demo
 
+
 <p align="center">
-  <video src="https://cdn.jsdelivr.net/gh/samriddhichandra/Store-rating-app@main/frontend/public/19.06.2026_15.23.30_REC.mp4" controls width="600"></video>
+  <a href="https://cdn.jsdelivr.net/gh/samriddhichandra/Store-rating-app@main/frontend/public/19.06.2026_15.23.30_REC.mp4">
+    <img src="frontend/public/storepulse-demo-thumbnail.png" alt="Watch StorePulse demo video" width="600">
+  </a>
 </p>
----
 
 ## Tech Stack
 
