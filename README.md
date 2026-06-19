@@ -28,13 +28,13 @@ The system supports three distinct roles with role‑based access control.
 Here are some screenshots showcasing the Store Rating Platform:
 
 <p align="center">
-  <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Landing Page" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Login Page" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Signup Page" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Store List" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-19 030614.png" alt="Admin Dashboard" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-19 031801.png" alt="Admin Users" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
-  <img src="frontend/public/Screenshot 2026-06-19 031901.png" alt="Owner Dashboard" style="width: 100%; max-width: 300px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 10px;">
+  <img src="frontend/public/Screenshot 2026-06-18 235729.png" alt="Landing Page" width="220">
+  <img src="frontend/public/Screenshot 2026-06-18 235835.png" alt="Login Page" width="220">
+  <img src="frontend/public/Screenshot 2026-06-18 235846.png" alt="Signup Page" width="220">
+  <img src="frontend/public/Screenshot 2026-06-19 000045.png" alt="Store List" width="220">
+  <img src="frontend/public/Screenshot 2026-06-19 030614.png" alt="Admin Dashboard" width="220">
+  <img src="frontend/public/Screenshot 2026-06-19 031801.png" alt="Admin Users" width="220">
+  <img src="frontend/public/Screenshot 2026-06-19 031901.png" alt="Owner Dashboard" width="220">
 </p>
 
 <p align="center">
