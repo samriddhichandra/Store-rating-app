@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Store Rating Platform - Backend (NestJS + PostgreSQL)",
   "private": true,
+  "main": "dist/vercel.js",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\"",

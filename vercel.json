@@ -11,24 +11,18 @@
       "src": "backend/package.json",
       "use": "@vercel/node",
       "config": {
-        "buildCommand": "cd backend && npm run build",
-        "outputDirectory": "backend/dist",
-        "maxLambdaSize": "50mb"
+        "buildCommand": "cd backend && npm run build"
       }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/dist/vercel.js",
-      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+      "dest": "backend/dist/vercel.js"
     },
     {
       "src": "/(.*)",
       "dest": "frontend/dist/index.html"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
