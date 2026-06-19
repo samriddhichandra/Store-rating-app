@@ -46,7 +46,7 @@ Here are some screenshots showcasing the Store Rating Platform:
 ## Demo
 
 <p align="center">
-  <video src="https://github.com/samriddhichandra/Store-rating-app/raw/main/frontend/public/19.06.2026_15.23.30_REC.mp4" controls width="600"></video>
+  <video src="https://cdn.jsdelivr.net/gh/samriddhichandra/Store-rating-app@main/frontend/public/19.06.2026_15.23.30_REC.mp4" controls width="600"></video>
 </p>
 
 ---
